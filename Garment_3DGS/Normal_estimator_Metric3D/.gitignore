@@ -1,0 +1,9 @@
+work_dirs
+show_dirs
+*__pycache__*
+test_dataloader_*
+show_dirs
+data
+weight/metric3d*
+
+show*

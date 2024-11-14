@@ -1,0 +1,6 @@
+config: 'Garment_3DGS/Normal_estimator_Metric3D/mono/configs/HourglassDecoder/vit.raft5.large.py'
+load_from: 'Garment_3DGS/Normal_estimator_Metric3D/weight/metric_depth_vit_large_800k.pth'
+node_rank: 0
+nnodes: 1
+options: {}
+launcher: "None"
