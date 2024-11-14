@@ -40,6 +40,7 @@
 
 ## 📝 TODO
 
+- [ ] fix gpu, fix finalmesh reverse problem
 - [ ] Better configs
 - [ ] Release the code of AutoEncoder_dgcnn and Garment_Diffusion and release the pretrained models
 - [ ] Improve Garment_3DGS to obtain more significant deformation

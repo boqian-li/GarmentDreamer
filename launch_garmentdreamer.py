@@ -27,6 +27,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--gpu",
         default="0",
+        type=str,
         help="GPU(s) to be used. 0 means use the 1st available GPU. "
         "1,2 means use the 2nd and 3rd available GPU. "
         "If CUDA_VISIBLE_DEVICES is set before calling `launch.py`, "
@@ -37,14 +38,13 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     print("========== Generating 3DGS... ==========\n")
-    # args.sample_path, args.bound = generate_3dgs(args)
-    args.sample_path = 'outputs/an_ironman_upperbody_armor@20241114-224238'
-    args.bound = 2.0
+    args.sample_path, args.bound = generate_3dgs(args)
+
     print("========== Done! ==========\n")
 
 
     print("========== Estimating normals... ==========\n")
-    # estimate_normal(args)
+    estimate_normal(args)
     print("========== Done! ==========\n")
 
 
