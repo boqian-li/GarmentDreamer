@@ -119,11 +119,11 @@ Please contact *Boqian Li* via boqianlihuster@gmail.com
 
 If you find this code or our method useful for your academic research, please cite our paper
 
-```bibtex
+<!-- ```bibtex
 @article{li2024garmentdreamer,
   title={GarmentDreamer: 3DGS Guided Garment Synthesis with Diverse Geometry and Texture Details},
   author={Li, Boqian and Li, Xuan and Jiang, Ying and Xie, Tianyi and Gao, Feng and Wang, Huamin and Yang, Yin and Jiang, Chenfanfu},
   journal={arXiv preprint arXiv:2405.12420},
   year={2024}
 }
-```
+``` -->
