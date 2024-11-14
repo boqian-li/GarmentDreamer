@@ -47,6 +47,11 @@
 
 
 ## 🛠️ Environment Setup
+
+0. Environment:
+  - Ubuntu 20.04
+  - CUDA 11.8
+
 1. Create Env:
 
    ```
