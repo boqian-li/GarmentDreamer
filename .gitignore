@@ -1,0 +1,9 @@
+Garment_Diffusion/
+AutoEncoder_dgcnn/
+Garment_NeTF/
+demopairs/
+
+*cache
+outputs/
+input_data_/
+archived/
