@@ -89,7 +89,7 @@
 * As discribed in [Metric3D](https://github.com/YvanYin/Metric3D), download the pretrained normal estimator from [here](https://drive.google.com/file/d/1eT2gG-kwsVzNy5nJrbm4KC-9DbNKyLnr/view) and put it in `Garment_3DGS/Normal_estimator_Metric3D/weight/metric_depth_vit_large_800k.pth`.
 
 ### 🧩 For mesh templates
-* Option 1: Download the mesh templates from [here](https://drive.google.com/file/d/158555555555555555555555555555555/view?usp=sharing) and put them in `Garment_Deformer_NeTF/input_data/`.
+* Option 1: Download the mesh templates from [here](https://drive.google.com/drive/folders/1ye9vZ481I-5EstpH6liuswtRVDgrlJvl?usp=sharing) and put them in `Garment_Deformer_NeTF/input_data/`.
 
 * Option 2: You can also use your own mesh templates. But please make sure the direction of the mesh is the same as those in Option 1.
 
