@@ -30,19 +30,17 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     print("========== Generating 3DGS... ==========\n")
-    # args.sample_path, args.bound = generate_3dgs(args)
-    args.sample_path = "outputs/an_Iron_man_style_upperbody_armor@20241117-184151"
-    args.bound = 2.0
+    args.sample_path, args.bound = generate_3dgs(args)
     print("========== Done! ==========\n")
 
 
     print("========== Estimating normals... ==========\n")
-    # estimate_normal(args)
+    estimate_normal(args)
     print("========== Done! ==========\n")
 
 
     print("========== Deforming... ==========\n")
-    # deformation(args)
+    deformation(args)
     print("========== Done! ==========\n")
 
 
