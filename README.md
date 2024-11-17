@@ -106,7 +106,9 @@
   ```bash
   CUDA_VISIBLE_DEVICES=/gpu_id/only_one/is_supported python launch_garmentdreamer.py --template_path /path/to/your/mesh/template.obj --prompt "your prompt"
   ```
-* I have tried to give the best config as I can but it's still not perfect. All important parameters are in the config files as `launch_garmentdreamer.py` shows and you can modify them to get better results. If you have any questions, please feel free to contact me.
+* tips:
+  * I have tried to give the best config as I can but it's still not perfect. All important parameters are in the config files as `launch_garmentdreamer.py` shows and you can modify them to get better results. If you have any questions, please feel free to contact me.
+  * A very useful strategy to describe the garment is to use the prompt template: `a {style} {garment type} made of {color} {material}` or a `{color} {material} {garment type}`. For example, 'a traditional royal style dress made of blue silk' or 'a blue denim tee'.
 
 ## Acknowledgment
 
