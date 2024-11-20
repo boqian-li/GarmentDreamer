@@ -4,3 +4,6 @@ demopairs/
 outputs/
 input_data_/
 archived/
+
+.DS_Store
+readme.txt
