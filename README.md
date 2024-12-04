@@ -61,6 +61,7 @@
    conda activate garmentdreamer
    conda install pytorch==2.3.1 torchvision==0.18.1 pytorch-cuda=11.8 -c pytorch -c nvidia # specific channel matters
    pip install -r requirements.txt
+   pip install xformers==0.0.27 --extra-index-url https://download.pytorch.org/whl/cu118
    ```
 2. Install pytorch3d:
 
