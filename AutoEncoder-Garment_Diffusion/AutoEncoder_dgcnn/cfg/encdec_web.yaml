@@ -1,0 +1,25 @@
+dset:
+  root: 
+  log: ../logs
+  # dataset_length: 880
+  # dataset_length_train: 800
+  # dataset_length_eval: 80
+
+num_points_pcd: 10_000 # 15_000
+udf_max_dist: 0.1
+latent_size: 64
+num_points_forward: 20_000 #30_000
+
+decoder:
+  hidden_dim: 512
+  num_hidden_layers: 5
+
+train_bs: 64
+val_bs: 40
+lr: 0.001
+num_epochs: 10000
+mixed_precision: 'no'
+seed: 123
+
+save_ckpt: 100
+save_log: 100

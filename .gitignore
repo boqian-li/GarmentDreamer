@@ -1,6 +1,13 @@
 demopairs/
 
 *cache
+__pycache__
+*.so
+*.o
+*.pt
+*.cpp
+logs/*
+
 outputs/
 input_data_/
 archived/

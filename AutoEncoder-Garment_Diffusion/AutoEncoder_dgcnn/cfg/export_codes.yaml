@@ -1,0 +1,11 @@
+ckpt_path: /home/boqian/Desktop/ckpts/4499.pt
+root: /devdata/zip_ClothesDataset_sim_reorg_resampled/
+
+output_dir:  /home/boqian/Desktop/exported_codes_train      # dir for exported meshes
+device: cuda:1  # cuda:0, cuda:1, cpu
+
+latent_size: 64
+num_points_pcd: 10_000
+
+
+

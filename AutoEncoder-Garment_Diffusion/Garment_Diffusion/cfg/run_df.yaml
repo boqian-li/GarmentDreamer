@@ -1,0 +1,65 @@
+root: /home/boqian/Desktop/exported_codes_train
+log: ../log
+
+
+# unet
+sample_size: 8
+in_channels: 1
+out_channels: 1
+layers_per_block: 2
+block_out_channels:
+  - 128
+  - 256
+  - 512
+
+down_block_types:
+  - DownBlock2D
+  - AttnDownBlock2D
+  - DownBlock2D
+
+up_block_types:
+  - UpBlock2D
+  - AttnUpBlock2D
+  - UpBlock2D
+
+
+
+# # embedder 
+# num_embeddings: 15
+# embedding_dim: 32
+
+
+# train
+train_bs: 6
+val_bs: 
+lr_unet: 0.000001
+# lr_embedder: 1e-4
+train_timesteps: 1000
+eval_timesteps: 100
+num_epochs:  10_000_000
+mixed_precision: 'no'
+seed: 123
+
+
+# log and ckpt 
+save_ckpt: 
+save_log: 
+
+
+# map
+category_to_index: 
+  Dress: 0
+  Top: 1
+  Jumpsuit: 2
+  dress_sleeveless: 3
+  tee: 4
+  wb_dress_sleeveless: 5
+  skirt_2_panels: 6
+  Skirt: 7
+  skirt_4_panels: 8
+  Tshirt: 9
+  wb_pants_straight: 10
+  jumpsuit_sleeveless: 11
+  tee_sleeveless: 12
+  Trousers: 13
+  pants_straight_sides: 14

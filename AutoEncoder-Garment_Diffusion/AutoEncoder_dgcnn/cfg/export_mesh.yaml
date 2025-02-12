@@ -1,0 +1,20 @@
+ckpt_path: /home/boqian/Desktop/ckpts/4499.pt
+root: /home/boqian/Desktop/exported_codes_train
+                      # path of 
+                          # 0: folder of .tar which includes item_id.pcds.npy (pre-resampled with num_points_pcd)
+                          # 1: folder which includes latents
+
+output_dir:  /home/boqian/Desktop/test_code_interpolation     # dir for exported meshes
+device: cuda  # cuda:0, cuda:1, cpu
+
+udf_max_dist: 0.1
+latent_size: 64
+num_points_pcd: 10_000
+num_points_compute: 5_000_000
+
+decoder:
+  hidden_dim: 512
+  num_hidden_layers: 5
+
+charmfer_distance_threshold: 1.5
+

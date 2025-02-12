@@ -44,9 +44,7 @@
 - [x] Better configs
 - [x] Upload more templates
 - [ ] Improve Garment_3DGS to obtain more significant deformation
-- [ ] Release the code of AutoEncoder_dgcnn and Garment_Diffusion and release the pretrained models
-
-
+- [x] Release the code of AutoEncoder_dgcnn and Garment_Diffusion and release the pretrained models. Please check the folder:`AutoEncoder-Garment_Diffusion`.
 
 ## 🛠️ Environment Setup
 
